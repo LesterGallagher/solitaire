@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.EchoSierraStudio.Solitaire" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>Solitaire</name>
+    <description />
+    <author />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="default" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidLaunchMode" value="singleTop" />
+    <preference name="ErrorUrl" value="" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="1000" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="250" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <preference name="UIWebViewDecelerationSpeed" value="normal" />
+    <preference name="monaca:AndroidIsPackageNameSeparate" value="false" />
+    <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1,2" />
+    <platform name="ios">
+        <icon height="1024" src="res/icon/ios/icon-1024.png" width="1024" />
+        <icon height="29" src="res/icon/ios/icon-small.png" width="29" />
+        <icon height="58" src="res/icon/ios/icon-small@2x.png" width="58" />
+        <icon height="87" src="res/icon/ios/icon-small@3x.png" width="87" />
+        <icon height="40" src="res/icon/ios/icon-small-40.png" width="40" />
+        <icon height="80" src="res/icon/ios/icon-small-40@2x.png" width="80" />
+        <icon height="120" src="res/icon/ios/icon-small-40@3x.png" width="120" />
+        <icon height="50" src="res/icon/ios/icon-small-50.png" width="50" />
+        <icon height="100" src="res/icon/ios/icon-small-50@2x.png" width="100" />
+        <icon height="57" src="res/icon/ios/icon.png" width="57" />
+        <icon height="114" src="res/icon/ios/icon@2x.png" width="114" />
+        <icon height="60" src="res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" src="res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" src="res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="72" src="res/icon/ios/icon-72.png" width="72" />
+        <icon height="144" src="res/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="76" src="res/icon/ios/icon-76.png" width="76" />
+        <icon height="152" src="res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="167" src="res/icon/ios/icon-167.png" width="167" />
+        <icon height="167" src="res/icon/ios/icon-83.5@2x.png" width="167" />
+        <splash src="res/screen/ios/Default@2x~iphone~anyany.png" />
+        <splash src="res/screen/ios/Default@2x~iphone~comany.png" />
+        <splash src="res/screen/ios/Default@3x~iphone~anyany.png" />
+        <splash src="res/screen/ios/Default@3x~iphone~comany.png" />
+        <splash src="res/screen/ios/Default@2x~ipad~anyany.png" />
+        <splash src="res/screen/ios/Default@2x~ipad~comany.png" />
+        <config-file parent="CFBundleLocalizations" platform="ios" target="*-Info.plist">
+            <array>
+                <string>en</string>
+            </array>
+        </config-file>
+    </platform>
+    <platform name="android">
+        <preference name="SplashMaintainAspectRatio" value="true" />
+        <preference name="SplashShowOnlyFirstTime" value="true" />
+        <icon density="ldpi" src="res/icon/android/ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
+        <splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png" />
+        <splash density="port-mdpi" src="res/screen/android/splash-port-mdpi.png" />
+        <splash density="port-hdpi" src="res/screen/android/splash-port-hdpi.png" />
+        <splash density="port-xhdpi" src="res/screen/android/splash-port-xhdpi.png" />
+        <splash density="port-xxhdpi" src="res/screen/android/splash-port-xxhdpi.png" />
+        <splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png" />
+    </platform>
+    <engine name="browser" spec="^5.0.3" />
+    <engine name="android" spec="^6.3.0" />
+</widget>
